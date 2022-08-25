@@ -14,7 +14,7 @@
     </div>
     <div class="text">Digite um número</div>
     <div class="btn">
-      <input type="text" autofocus>
+      <input type="tel" min="0" max="100" maxlength="3" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
       <button>Ok</button>
     </div>
   </div>
